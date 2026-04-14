@@ -98,6 +98,9 @@ a{
 
 .relative{
     position: relative;
+    top: 0;
+    left: 0;
+
 }
 
 .absolute-L{
@@ -118,14 +121,26 @@ a{
 
 .absolute-01{
     position: absolute;
-    top: 1070px;
-    left: 170px;
+    top: -30px;
+    left: 100px;
 }
 
 .absolute-02{
     position: absolute;
-    top: 1830px;
-    left: 800px;
+    top: -30px;
+    left: 100px;
+}
+
+.absolute-03{
+    position: absolute;
+    top: 2500px;
+    left: 190px;
+}
+
+.absolute-header{
+    position: absolute;
+    top: 3155px;
+    left: 500px;
 }
 
 
@@ -179,14 +194,25 @@ a{
     margin-bottom: 16px;
 }
 
+.mb-128{
+    margin-bottom: 105px;
+}
+
 .padding-16{
     padding: 16px;
 }
 
+.pr-40{
+    padding-right: 40px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
 
 /*TAILLES*/
 
-w-30{
+.w-30{
     width: 30%;
 }
 
@@ -198,6 +224,36 @@ w-30{
     width: 45%;
 }
 
+.w-40{
+    width: 40%;
+}
+
 
 /*TEXTE*/
 
+.ft-10{
+    font-size: 10px;
+}
+
+.ft-20{
+    font-size: 20px;
+}
+
+.ft-50{
+    font-size: 50px;
+}
+
+
+.big-chiffre{
+    position: absolute;
+    top: -90px;
+    left:-50px;
+    font-size: 140px;
+    font-family:"Josefin",sans-serif;
+    color: rgba(255, 255, 255, 0.347);
+    
+}
+
+div{
+    z-index: 1;
+}
