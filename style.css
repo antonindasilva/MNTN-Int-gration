@@ -1,0 +1,203 @@
+
+.josefin-sans-700{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+
+.josefin-sans-500 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+
+.josefin-sans-100 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+header{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+*{
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.font-size-100{
+    font-size: 100px;
+}
+
+
+/*COLORS*/
+
+.white{
+    color: #FFFFFF;
+}
+
+.bold-700{
+    font-weight: 700px;
+}
+
+.bold-100{
+    font-weight: 100;
+}
+
+.gold{
+    color: #FBD784;
+}
+
+
+/*BACKGROUND*/
+
+.bg-hero{
+    background-image: url(asset/banniere.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 150vh;
+}
+
+
+.bg-black{
+    background-color: #0B1D26;
+}
+
+/*POSITIONS*/
+
+.fixed{
+    position: fixed;
+}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute-L{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+
+.absolute-R{
+    position: absolute;
+    top: 350px;
+    right:90px;
+}
+
+.rotate-90{
+    transform: rotate(90deg);
+}
+
+.absolute-01{
+    position: absolute;
+    top: 1070px;
+    left: 170px;
+}
+
+.absolute-02{
+    position: absolute;
+    top: 1830px;
+    left: 800px;
+}
+
+
+
+
+
+/*FLEX BOX*/
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap-64{
+    gap: 64px;
+}
+
+.gap-16{
+    gap: 16PX;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+
+/*MARGIN&PADDING*/
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.padding-16{
+    padding: 16px;
+}
+
+
+/*TAILLES*/
+
+w-30{
+    width: 30%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-45{
+    width: 45%;
+}
+
+
+/*TEXTE*/
+
